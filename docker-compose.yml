@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  build-vesc:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    image: ghcr.io/timopomer/build-vesc-docker:0.0.1
